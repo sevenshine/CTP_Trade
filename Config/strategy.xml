@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+    <strategy name="arbitrage">
+    	<account>111117</account>
+    	<instreument>IF1410,IF1411</instreument>
+		<code>000300,000400,000500</code>
+    	<fund> 100 </fund> 
+    	<risk>
+    		<maxopennumber>100</maxopennumber>
+    		<maxlossfund>101</maxlossfund>
+    	</risk>
+    </strategy>	
+	<strategy name="test man">
+    	<account>111111</account>
+    	<instreument>IF1400,IF1401</instreument>
+		<code>000300,000600</code>
+    	<!--<fund></fund> -->
+    	<risk>
+    		<maxopennumber>100</maxopennumber>
+    		<maxlossfund>101</maxlossfund>
+    	</risk>
+    </strategy>
+	<strategy name="arbitrage">
+    	<account>111111</account>
+    	<instreument>IF1420,IF1421</instreument>
+		<code>000300,000400,000700</code>
+    	<!--<fund></fund> -->
+    	<risk>
+    		<maxopennumber>100</maxopennumber>
+    		<maxlossfund>101</maxlossfund>
+    	</risk>
+    </strategy>	
+</root>

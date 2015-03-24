@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>    
+    <account>
+    	<item userid="111111" pwd="123456" />
+    	<item userid="111112" pwd="123456" />
+    	<item userid="111113" pwd="123456" />
+		<item userid="111113" pwd="123456" />
+    </account>
+    <server brokerid="11">
+		<item name="no1" tradefront="tcp://10.10.10.10:8899" mdfront="tcp://10.10.10.10:8898" />
+		<item name="no2" tradefront="tcp://10.10.10.10:8890" mdfront="tcp://10.10.10.10:8891" />    
+    </server>
+</root>
